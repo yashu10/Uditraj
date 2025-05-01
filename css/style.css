@@ -119,6 +119,17 @@ button[type=submit] {
   text-transform: uppercase;
 }
 
+button[type=button] {
+  height: 54px;
+  border: none;
+  background: #9f8054;
+  color: #fff;
+  padding: 0 30px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 /* ODOMETER */
 .odometer {
   line-height: 1;
@@ -2620,7 +2631,7 @@ button[type=submit] {
   border: 1px solid #ebcfa7;
   border-right: none;
 }
-.blog .sidebar .widget form button[type=submit] {
+.blog .sidebar .widget form button[type=submit] button[type=button]{
   width: 50px;
   padding: 0;
 }
